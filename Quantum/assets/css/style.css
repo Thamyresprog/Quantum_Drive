@@ -31,7 +31,12 @@ body.contraste {
 }
 
 body.daltonico {
-  filter: hue-rotate(35deg);
+    --blue: #005FCC;
+    --cyan: #F4A300;
+    --text: #FFFFFF;
+    --muted: #E5E5E5;
+    --black-soft: #1A1A1A;
+    --graphite: #2B2B2B;
 }
 
 button,

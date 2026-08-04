@@ -173,9 +173,8 @@ document.addEventListener('click', (event) => {
   if (accessButton) {
     const action = accessButton.dataset.action;
     if (action === 'daltonico') document.body.classList.toggle('daltonico');
-    if (action === 'contraste') document.body.classList.toggle('contraste');
-    if (action === 'fonteMais') document.body.style.fontSize = '18px';
-    if (action === 'fonteMenos') document.body.style.fontSize = '15px';
+    if (action === 'fonteMais') document.body.style.fontSize = '20px';
+    if (action === 'fonteMenos') document.body.style.fontSize = '10px';
   }
 });
 
